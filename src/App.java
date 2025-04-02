@@ -6,9 +6,9 @@ public class App {
         //Method to run the main thread of the app 
         SwingUtilities.invokeLater(() -> { 
             //Create the JFrame object 
-            SwingTemperatureApp swingTemperatureApp = new SwingTemperatureApp(); 
+            JPanelPractice jPanelPractice = new JPanelPractice(); 
             //Set it visible (Open the JFrame) 
-            swingTemperatureApp.setVisible(true); 
-        }); 
-    } 
+            jPanelPractice.setVisible(true); 
+            }); 
+        } 
 }
