@@ -1,9 +1,14 @@
+import javax.swing.SwingUtilities;
+
 public class App {
-    //Main method 
+    //Main Method 
     public static void main(String[] args) { 
-        //Create the Frame object 
-        AWTDrawingApp app = new AWTDrawingApp(); 
-        //Set it visible (Open the Frame) 
-        app.setVisible(true); 
+        //Method to run the main thread of the app 
+        SwingUtilities.invokeLater(() -> { 
+            //Create the JFrame object 
+            SwingTemperatureApp swingTemperatureApp = new SwingTemperatureApp(); 
+            //Set it visible (Open the JFrame) 
+            swingTemperatureApp.setVisible(true); 
+        }); 
     } 
 }
