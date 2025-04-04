@@ -2,11 +2,8 @@ import java.awt.Color;
 
 import javax.swing.JFrame;
 import javax.swing.JPanel;
-import javax.swing.JTextField; 
 
 public class JPanelPractice extends JFrame {
-    private JTextField celsiusField; 
-    private JTextField fahrenheitField; 
 
     public JPanelPractice(){ 
         setTitle("Jpanel Practice"); 
